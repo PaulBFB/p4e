@@ -11,14 +11,14 @@ for line in fpath:
     else:
         words = line.split()
         emails.append(words[1].strip())
-#print(emails)
+# print(emails)
 
 for email in emails:
-    counts[email] = counts.get(email,0) + 1
+    counts[email] = counts.get(email, 0) + 1
 
-#print(counts)
+# print(counts)
 
-for k,v in counts.items():
+for k, v in counts.items():
     if bigcount is None or v > bigcount:
         bigcount = v
         bigemail = k

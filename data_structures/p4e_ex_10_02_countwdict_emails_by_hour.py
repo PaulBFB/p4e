@@ -16,5 +16,5 @@ for line in file:
 
 hour_rank = sorted([(v, k) for v, k in hour_count.items()])
 
-for k,v in hour_rank:
+for k, v in hour_rank:
     print(k, v)

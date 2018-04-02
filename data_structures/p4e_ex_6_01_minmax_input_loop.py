@@ -1,6 +1,6 @@
 smallest = None
 biggest = None
-while True :
+while True:
     snum = input('please enter a number: ')
     if snum == 'done':
         break
@@ -9,7 +9,7 @@ while True :
     except:
         print('Invalid input')
         continue
-    if smallest is None :
+    if smallest is None:
         smallest = num
     elif smallest < num:
         smallest = num
@@ -19,5 +19,5 @@ while True :
         biggest = num
 
 
-print('Minimum is',smallest)
-print('Maximum is',biggest)
+print('Minimum is', smallest)
+print('Maximum is', biggest)

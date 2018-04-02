@@ -15,8 +15,8 @@ while True:
         else:
             continue
 
-print('you have entered the filename: ',fname)
-print('the path to your file is: ',fpath,'\n your file will be printed below \n')
+print('you have entered the filename: ', fname)
+print('the path to your file is: ', fpath, '\n your file will be printed below \n')
 for line in fpath:
     line_upper = line.upper()
     print(line_upper.rstrip())

@@ -21,7 +21,7 @@ except:
 rndlist = []
 
 n = 0
-while n<intsize:
+while n < intsize:
     rndlist.append(randint(1,100))
     n=n+1
 
@@ -29,7 +29,7 @@ print('I made your list:\n')
 sleep(1)
 print(rndlist)
 
-biggest=-1
+biggest = -1
 
 for number in rndlist:
     if number > biggest:

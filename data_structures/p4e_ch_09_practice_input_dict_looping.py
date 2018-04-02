@@ -5,4 +5,4 @@ while True:
         break
     else:
         names[name] = names.get(name, 0) + 1
-print('name frequency:',names)
+print('name frequency:', names)

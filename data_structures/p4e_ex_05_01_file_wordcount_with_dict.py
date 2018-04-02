@@ -5,7 +5,7 @@ for line in fpath:
     words = line.split()
     for word in words:
         counts[word] = counts.get(word, 0) + 1
-#for key in counts:
+# for key in counts:
 #    print(key,counts[key])
 bigcount = None
 bigword = None
@@ -14,5 +14,4 @@ for a,b in counts.items():
         bigcount = b
         bigword = a
 
-print(bigcount,bigword)
-
+print(bigcount, bigword)

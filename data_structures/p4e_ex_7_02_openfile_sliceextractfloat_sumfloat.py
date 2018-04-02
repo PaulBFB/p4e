@@ -31,4 +31,4 @@ for line in fpath:
 
 #print('numer of lines starting with specified string: ',nlines)
 #print('sum of floats containted: ',fls)
-print('Average spam confidence:',fls/nlines)
+print('Average spam confidence:', fls/nlines)
